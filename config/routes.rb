@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
+	#get "users/new"
 
 	match '/contact', :to => 'pages#contact'
 	match '/about',   :to => 'pages#about'
@@ -8,6 +8,8 @@ SampleApp::Application.routes.draw do
 	match '/home',			:to => 'pages#home'	
 	# We could simply use
 	root :to => 'pages#home'
+	
+	resources :users
 	
 	match '/signup', :to => 'users#new'
 
