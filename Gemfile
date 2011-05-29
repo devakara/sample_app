@@ -21,6 +21,7 @@ gem 'sqlite3'
 # gem 'bj'
 # gem 'nokogiri'
 gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
+#gem 'rake', '0.8.7'
 # gem 'aws-s3', :require => 'aws/s3'
 
 group :development do
